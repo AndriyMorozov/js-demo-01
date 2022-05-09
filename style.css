@@ -1,0 +1,26 @@
+table.chess td {
+    width:20px;
+    height:20px;
+    border: 1px solid black;
+    transition-duration: 2s;
+    text-align: center;
+}
+table.chess {
+    border-collapse: collapse;
+}
+table.chess tr:nth-child(2n) td:nth-child(2n),
+table.chess tr:nth-child(2n+1) td:nth-child(2n+1) {
+    background-color: black;
+    color: white;
+}
+.selected {
+    background-color: yellow !important;
+    transform: rotate(1turn);
+    color: blue !important;
+}
+#color {
+    width:30px;
+    height: 30px;
+    border:1px solid gray;
+    margin: 30px 0 0 0;
+}
