@@ -1,3 +1,7 @@
+let img = document.querySelector('img');
+img.addEventListener('dragstart', function(event) {
+    event.preventDefault();
+})
 
 let chessElement = document.querySelector('.chess');
 for(let i = 0; i < chessElement.rows.length; i++)
